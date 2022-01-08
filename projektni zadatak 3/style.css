@@ -1,0 +1,87 @@
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+    background-color:#3b3b3b;
+}
+header {
+	display: block;
+	width: 100%;
+    background-color:#ffffff;
+}
+.hero-image {
+	background-image: url("img/orlic_logo.png.opdownload");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 150px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(27, 27, 27);
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: rgb(224, 98, 14);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+	color: rgb(255, 255, 255)
+}
+h2 {
+	font-size: 1.5em;
+	color: rgb(224, 98, 14)
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+	color:rgb(224, 98, 14)
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	
+}
+figcaption {
+	font-size: 90%;
+	color:rgb(224, 98, 14)
+}
+img {
+	width: 100%;
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}

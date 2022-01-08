@@ -1,0 +1,39 @@
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+    background-color:#3b3b3b;
+}
+header {
+	display: block;
+	width: 100%;
+    background-color:#ffffff;
+}
+.hero-image {
+	background-image: url("img/orlic_logo.png.opdownload");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 150px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(27, 27, 27);
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: rgb(224, 98, 14);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
